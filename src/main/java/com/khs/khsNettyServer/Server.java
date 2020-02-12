@@ -14,7 +14,7 @@ import javax.net.ssl.SSLException;
 import java.security.cert.CertificateException;
 
 public class Server {
-    private static int port = 3611;
+    private static int port = 3641;
 
     public Server(int port) {
         super();
