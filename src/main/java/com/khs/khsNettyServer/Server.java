@@ -14,7 +14,7 @@ import javax.net.ssl.SSLException;
 import java.security.cert.CertificateException;
 
 public class Server {
-    private static int port = 3641;
+    private static int port = 14419;
 
     public Server(int port) {
         super();
@@ -50,6 +50,6 @@ public class Server {
     }
 
     public static void main(String[] args) {
-        new Server(3641).startServer();
+        new Server(14419).startServer();
     }
 }
